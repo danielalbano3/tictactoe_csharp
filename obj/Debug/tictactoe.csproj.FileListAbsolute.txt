@@ -1,0 +1,11 @@
+E:\C#\app\tictactoe\tictactoe\bin\Debug\tictactoe.exe.config
+E:\C#\app\tictactoe\tictactoe\bin\Debug\tictactoe.exe
+E:\C#\app\tictactoe\tictactoe\bin\Debug\tictactoe.pdb
+E:\C#\app\tictactoe\tictactoe\obj\Debug\tictactoe.csproj.AssemblyReference.cache
+E:\C#\app\tictactoe\tictactoe\obj\Debug\tictactoe.csproj.SuggestedBindingRedirects.cache
+E:\C#\app\tictactoe\tictactoe\obj\Debug\tictactoe.Form1.resources
+E:\C#\app\tictactoe\tictactoe\obj\Debug\tictactoe.Properties.Resources.resources
+E:\C#\app\tictactoe\tictactoe\obj\Debug\tictactoe.csproj.GenerateResource.cache
+E:\C#\app\tictactoe\tictactoe\obj\Debug\tictactoe.csproj.CoreCompileInputs.cache
+E:\C#\app\tictactoe\tictactoe\obj\Debug\tictactoe.exe
+E:\C#\app\tictactoe\tictactoe\obj\Debug\tictactoe.pdb
