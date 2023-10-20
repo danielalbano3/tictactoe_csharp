@@ -66,12 +66,44 @@ namespace tictactoe
                         break;
                 }
 
+
                 if (combination.Equals("OOO")){
+                    reset();
                     MessageBox.Show("O has won!", "We have a winner!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
                 else if (combination.Equals("XXX")){
+                    reset();
                     MessageBox.Show("X has won!", "We have a winner!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 } 
+                checkDraw();
+            }
+        }
+
+        public void reset(){
+            button1.Text = "";
+            button2.Text = "";
+            button3.Text = "";
+            button4.Text = "";
+            button5.Text = "";
+            button6.Text = "";
+            button7.Text = "";
+            button8.Text = "";
+            button9.Text = "";
+            gameBoard = new string[9];
+            currentTurn = 0;
+        }
+
+        public void checkDraw()
+        {
+            int counter = 0;
+            for (int i = 0; i < gameBoard.Length; i++)
+            {
+                if (gameBoard[i] != null) { counter++; }
+                if (counter == 9)
+                {
+                    reset();
+                    MessageBox.Show("That's a draw!", "No winner today! :( ", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
             }
         }
 
