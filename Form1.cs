@@ -69,92 +69,81 @@ namespace tictactoe
                 if (combination.Equals("OOO")){
                     MessageBox.Show("O has won!", "We have a winner!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
-                if (combination.Equals("XXX"))
-                {
+                else if (combination.Equals("XXX")){
                     MessageBox.Show("X has won!", "We have a winner!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                }
+                } 
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            String gb = gameBoard[0];
             currentTurn++;
-            gb = returnSymbol(currentTurn);
-            button1.Text = gb;
+            gameBoard[0] = returnSymbol(currentTurn);
+            button1.Text = gameBoard[0];
             checkForWinner();
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            String gb = gameBoard[1];
             currentTurn++;
-            gb = returnSymbol(currentTurn);
-            button2.Text = gb;
+            gameBoard[1] = returnSymbol(currentTurn);
+            button2.Text = gameBoard[1];
             checkForWinner();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            String gb = gameBoard[2];
             currentTurn++;
-            gb = returnSymbol(currentTurn);
-            button3.Text = gb;
+            gameBoard[2] = returnSymbol(currentTurn);
+            button3.Text = gameBoard[2];
             checkForWinner();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            String gb = gameBoard[3];
             currentTurn++;
-            gb = returnSymbol(currentTurn);
-            button4.Text = gb;
+            gameBoard[3] = returnSymbol(currentTurn);
+            button4.Text = gameBoard[3];
             checkForWinner();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            String gb = gameBoard[4];
             currentTurn++;
-            gb = returnSymbol(currentTurn);
-            button5.Text = gb;
+            gameBoard[4] = returnSymbol(currentTurn);
+            button5.Text = gameBoard[4];
             checkForWinner();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            String gb = gameBoard[5];
             currentTurn++;
-            gb = returnSymbol(currentTurn);
-            button6.Text = gb;
+            gameBoard[5] = returnSymbol(currentTurn);
+            button6.Text = gameBoard[5];
             checkForWinner();
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            String gb = gameBoard[6];
             currentTurn++;
-            gb = returnSymbol(currentTurn);
-            button7.Text = gb;
+            gameBoard[6] = returnSymbol(currentTurn);
+            button7.Text = gameBoard[6];
             checkForWinner();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            String gb = gameBoard[7];
             currentTurn++;
-            gb = returnSymbol(currentTurn);
-            button8.Text = gb;
+            gameBoard[7] = returnSymbol(currentTurn);
+            button8.Text = gameBoard[7];
             checkForWinner();
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            String gb = gameBoard[8];
             currentTurn++;
-            gb = returnSymbol(currentTurn);
-            button9.Text = gb;
+            gameBoard[8] = returnSymbol(currentTurn);
+            button9.Text = gameBoard[8];
             checkForWinner();
         }
     }
