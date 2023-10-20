@@ -68,7 +68,8 @@ namespace tictactoe
 
                 if (combination.Equals("OOO")){
                     MessageBox.Show("O has won!", "We have a winner!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                } else
+                }
+                if (combination.Equals("XXX"))
                 {
                     MessageBox.Show("X has won!", "We have a winner!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
@@ -81,6 +82,7 @@ namespace tictactoe
             currentTurn++;
             gb = returnSymbol(currentTurn);
             button1.Text = gb;
+            checkForWinner();
 
         }
 
@@ -90,6 +92,7 @@ namespace tictactoe
             currentTurn++;
             gb = returnSymbol(currentTurn);
             button2.Text = gb;
+            checkForWinner();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -98,6 +101,7 @@ namespace tictactoe
             currentTurn++;
             gb = returnSymbol(currentTurn);
             button3.Text = gb;
+            checkForWinner();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -106,6 +110,7 @@ namespace tictactoe
             currentTurn++;
             gb = returnSymbol(currentTurn);
             button4.Text = gb;
+            checkForWinner();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -114,6 +119,7 @@ namespace tictactoe
             currentTurn++;
             gb = returnSymbol(currentTurn);
             button5.Text = gb;
+            checkForWinner();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -122,6 +128,7 @@ namespace tictactoe
             currentTurn++;
             gb = returnSymbol(currentTurn);
             button6.Text = gb;
+            checkForWinner();
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -130,6 +137,7 @@ namespace tictactoe
             currentTurn++;
             gb = returnSymbol(currentTurn);
             button7.Text = gb;
+            checkForWinner();
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -138,6 +146,7 @@ namespace tictactoe
             currentTurn++;
             gb = returnSymbol(currentTurn);
             button8.Text = gb;
+            checkForWinner();
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -146,6 +155,7 @@ namespace tictactoe
             currentTurn++;
             gb = returnSymbol(currentTurn);
             button9.Text = gb;
+            checkForWinner();
         }
     }
 }
